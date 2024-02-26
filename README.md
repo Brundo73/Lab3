@@ -23,7 +23,7 @@
 
 ### Диаграмма классов реализованной модели
 
-![alt text](https://i.imgur.com/1unxgCI.png)
+![alt text]( https://i.imgur.com/dncfMou.png )
 
 ### Вывод программы
 
