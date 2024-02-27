@@ -1,3 +1,3 @@
 public interface Translator {
-    public void translate(String lang);
-}
+    public void translate(String lang);}
+

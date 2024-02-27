@@ -1,8 +1,10 @@
-public class ArkhemRadioman extends Person implements Radioman {
-    public ArkhemRadioman() {super("Радист с Аркхема");}
+public class BigWorldRadio extends Person implements Radioman {
+    public BigWorldRadio() {
+        super("Радист остального мира");
+    }
     @Override
     public String getAnswer() {
-        return "Получатель: " + this.getName();
+        return "Получатель: "+this.getName();
     }
 
     @Override
@@ -15,6 +17,4 @@ public class ArkhemRadioman extends Person implements Radioman {
     public void gain() {
         System.out.println(this.getName() + " получил сообщение");
     }
-
-
 }

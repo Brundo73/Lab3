@@ -1,4 +1,7 @@
 public interface Radioman {
-    //public void send(Person gainer);
-    public void send(Gainers gainer);
+
+    public String getAnswer();
+    public void send(Radioman gainer);
+    public void gain();
+    
 }

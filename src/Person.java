@@ -7,20 +7,20 @@ public abstract class Person {
         System.out.println(this.getName() + " сказал о " + theme);
     }
     public String getName() {
-        return name;
+        return this.name;
     }
     @Override
     public String toString() {
         return this.getName();
     }
-
     @Override
     public int hashCode() {
         return super.hashCode() + this.getName().hashCode();
     }
-
     @Override
     public boolean equals(Object obj) {
-        return obj.hashCode() == this.hashCode();
+        if (this.getClass() == obj.getClass()) {
+            return obj.hashCode() == this.hashCode();
+        } else {return false;}
     }
 }
